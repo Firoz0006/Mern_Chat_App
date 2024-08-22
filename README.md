@@ -14,7 +14,9 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 ## Demo
 
 ## deploy url is here
- 
+
+https://mern-chat-app-s9a9.onrender.com/
+
 ![](https://github.com/Firoz0006/Web_Development/blob/main/mern-chat-app/Snapshots/Screenshot%20(118).png)
 ## Run Locally
 
