@@ -23,7 +23,7 @@ https://mern-chat-app-s9a9.onrender.com/
 Clone the project
 
 ```bash
-  git clone https://github.com/Firoz0006/Web_Development.git
+  git clone https://github.com/Firoz0006/Mern_Chat_App.git
 ```
 
 Go to the project directory
