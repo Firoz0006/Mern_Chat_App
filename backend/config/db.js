@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const colors = require("colors");
 
-const MONGO_URI = "mongodb+srv://2023pis5097:firoz@12345@cluster0.qksxj.mongodb.net/"
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://2023pis5097:firoz@12345@cluster0.qksxj.mongodb.net/"
 
 const connectDB = async () => {
   try {
