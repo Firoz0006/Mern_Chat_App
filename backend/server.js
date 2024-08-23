@@ -21,6 +21,16 @@ app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
 
+// adding deployment **Firoz**
+const mongoose = require('mongoose');
+
+const dbURI = 'mongodb+srv://<username>:<password>@cluster0.qksxj.mongodb.net/myDatabase?retryWrites=true&w=majority';
+
+mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB connected...'))
+  .catch(err => console.error('MongoDB connection error:', err));
+
+
 // --------------------------deployment------------------------------
 
 const __dirname1 = path.resolve();
