@@ -79,6 +79,6 @@ Start the Client
 ![](https://github.com/Firoz0006/Web_Development/blob/main/mern-chat-app/Snapshots/Screenshot%20(142).png)
 ## Made By
 
-- [@Made by Firoz](https://github.com/Firoz0006)
+- [@Made By Firoz](https://github.com/Firoz0006)
 
   
